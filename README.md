@@ -4,77 +4,38 @@
 
 <a href="https://nodei.co/npm/botcordtop.js"><img src="https://nodei.co/npm/botcordtop.js.png?downloads=true&stars=true" alt="npm installnfo" /></a>
 
+---
 
-## Installation
-*If you have trouble with the installation, please feel free to visit our [discord](https://botcord.top/dc) address.*
-- `npm i botcordtop.js`
+### Installation
 
-#### What is it's uses?
-  Answer: To get the daily vote count, server count and information about your bot.
+`npm i botcordtop.js` If that does not work try `npm install botcordtop.js`
 
-#### How can I get my bot's server count?
-  `JavaScript:`
+---
+
+### How to integrate with my bot?
+
 ```js
 const dbct = require("botcordtop.js");
-const dbt = new dtl("TOKEN-HERE", client);
+const dbt = new dbct("TOKEN_HERE", client);
 
 client.on("ready", async () => {
   dbt.serverCount();
-});
-```
+  console.log("[BOTCORD.TOP] - Server Count Updated!")```
 
-#### How can I get my bot's vote count?
-  `Answer:`
+This would be to get the server count! This would be to not have it saying N/A
+
 ```js
-let hasVote = await dbt.hasVoted("Your-bot-id");
+  let hasVote = await dbt.hasVoted("DISCORD_BOT_CLIENT_ID");
   if(hasVote === true) {
-    console.log("Voted")
+    console.log("[BOTCORD.TOP] - Bot voted recently.")
   } else {
-    console.log("Vote please.")
-  }
-  
-  
-  let search = await dbt.search("Your-bot-id")
-  console.log(search)
+    console.log("[BOTCORD.TOP] - Please vote on the Bot.")
+  }```
 
-```
+---
 
-#### Full Example?
-```js
-const dbct = require("botcordtop.js");
-const dbt = new dtl("TOKEN-HERE", client);
+If you are still having issue's please join our [DISCORD](https://botcord.top/discord)
 
-client.on("ready", async () => {
-  dbt.serverCount();
-  console.log("Server count posted")
-  
-  let hasVote = await dbt.hasVoted("your-bot-id");
-  if(hasVote === true) {
-    console.log("Voted")
-  } else {
-    console.log("Vote please.")
-  }
-  
-  
-  let search = await dbt.search("botcordtop.js")
-  console.log(search)
 
-  /* SearchResults
-  {
-    avatar: '',
-    botID: '',
-    username: '',
-    discrim: '',
-    shortDesc: '',
-    prefix: '? [changable]',
-    votes: 25,
-    ownerID: '',
-    owner: '',
-    coowners: [ '' ],
-    tags: [ 'Moderation', 'NSFW', 'Music' ],
-    longDesc: longDesc,
-    certificate: 'Certified'
-  }
-  */
-});
-```
+
+~ Founders
