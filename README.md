@@ -1,68 +1,61 @@
-# botcordtop.js
-<a href="https://discord.gg/yMuNjUegtX" target="_blank"><img src="https://img.devsforum.net/tr/img/h1Z2X3.png" alt="Join our discord" width="256"></a><br>
-**Support:** [https://discord.gg/yMuNjUegtX](https://discord.gg/yMuNjUegtX) <br>
-**NPM:** [npmjs.com/package/botcordtop.js](https://www.npmjs.com/package/botcordtop.js)<br>
+**NPM:** [npmjs.com/package/botcordtop](https://www.npmjs.com/package/botcordtop.js/)<br>
 
-## Installation
-*If you have trouble with the installation, please feel free to visit our [discord](https://discord.gg/8ZBYQAS4Q9) address.*
-- `npm i botcordtop.js`
 
-# Define Module & Client
+
+<a href="https://nodei.co/npm/botcordtop.js"><img src="https://nodei.co/npm/botcordtop.js.png?downloads=true&stars=true" alt="npm botcordtop.js" /></a>
+
+  [JavaScript Package](https://www.npmjs.com/package/botcordtop.js)
+            
+
+#### How do I install it?
+ `npm i botcordtop.js or npm install botcordtop.js`
+          
+
+#### How can I get my bot's server count?
+  `JavaScript:`
 ```js
-const Discord = require("discord.js");
-const client = new Discord.Client();
-const BotCord = require("botcordtop.js");
-const bcdl = new BotCord("TOKEN-HERE", client);
+const bct = require("botcordtop.js");
+const bct = new dtl("TOKEN-HERE", client);
 
-client.login("TOKEN_LOL_POGGERS");
+client.on("ready", async () => {
+  bct.serverCount();
+});
 ```
 
-# Certificate Application
+#### How can I get my bot's vote count?
+  `Ans:`
 ```js
-bcdl.certificateApplication("Bla bla bla bla bla bla bla bla bla bla bla bla...", () => {
-    console.log("Certificate successfully applied.");
-})
+let hasVote = await bct.hasVoted("Your-bot-id");
+  if(hasVote === true) {
+    console.log("Voted")
+  } else {
+    console.log("Vote please.")
+  }
+  
+  
+  let search = await bct.search("Your-bot-id")
+  console.log(search)
+
 ```
 
-# Vote Checking
+### Full Example?
 ```js
-bcdl.checkVote("userId").then((value) => {
-    if(value === 1) {
-        console.log("User voted.")
-    } else {
-        console.log("User not voted.")
-    }
-})
+const dtl = require("botcordtop.js");
+const bct = new dtl("TOKEN-HERE", client);
+
+client.on("ready", async () => {
+  bct.serverCount();
+  console.log("Server count posted")
+  
+  let hasVote = await bct.hasVoted("your-bot-id");
+  if(hasVote === true) {
+    console.log("Voted")
+  } else {
+    console.log("Vote please.")
+  }
+  
+  
+  let search = await bct.search("botcordtop.js")
+  console.log(search)
+});
 ```
-
-
-# All Operations
-```js
-const vCodes = require('vcodes.js');
-const { Client } = require("discord.js");
-const client = new Client();
-const BotCord = new BotCord("BotCord-Bot-Token-Here", client)
-
-bcdl.on("ready", () => {
-    console.log('vCodes ready!')
-})
-
-bcdl.checkVote("userId").then((value) => {
-    if(value === 1) {
-        console.log("User voted.")
-    } else {
-        console.log("User not voted.")
-    }
-})
-
-bcdl.certificateApplication("Bla bla bla bla bla bla bla bla bla bla bla bla...", () => {
-    console.log("Certificate successfully applied.");
-})
-
-client.on("ready", () => {
-    console.log("Logged as in "+client.user.tag)
-})
-
-client.login("Discord-Bot-Token")
-```
-
