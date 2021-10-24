@@ -38,6 +38,7 @@ This would be to get the server count! This would be to not have it saying N/A
 
 If you are still having issue's please join our [DISCORD](https://botcord.top/discord)
 
+---
 
 
-- ❤️ System Developers ❤️ -
+❤️ System Developers ❤️ 
