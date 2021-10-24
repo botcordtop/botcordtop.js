@@ -11,8 +11,7 @@
 `npm i botcordtop.js` If that does not work try `npm install botcordtop.js`
 
 ---
-
-### How to integrate with my bot?
+This would be to update the server count on [BOTCORD](https://botcord.top/bots)
 
 ```js
 const dbct = require("botcordtop.js");
@@ -23,8 +22,8 @@ client.on("ready", async () => {
   console.log("[BOTCORD.TOP] - Server Count Updated!")
 ```
 
-This would be to get the server count! This would be to not have it saying N/A
-
+---
+Check to see if the author has voted on the bot recently!
 ```js
   let hasVote = await dbt.hasVoted("DISCORD_BOT_CLIENT_ID");
   if(hasVote === true) {
