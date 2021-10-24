@@ -1,7 +1,7 @@
 # botcordtop.js
-<a href="https://discord.gg/8ZBYQAS4Q9" target="_blank"><img src="https://img.devsforum.net/tr/img/h1Z2X3.png" alt="Join our discord" width="256"></a><br>
-**Support:** [https://discord.gg/8ZBYQAS4Q9](https://discord.gg/8ZBYQAS4Q9) <br>
-**NPM:** [npmjs.com/package/vcodes.js](https://www.npmjs.com/package/vcodes.js)<br>
+<a href="https://discord.gg/yMuNjUegtX" target="_blank"><img src="https://img.devsforum.net/tr/img/h1Z2X3.png" alt="Join our discord" width="256"></a><br>
+**Support:** [https://discord.gg/yMuNjUegtX](https://discord.gg/yMuNjUegtX) <br>
+**NPM:** [npmjs.com/package/botcordtop.js](https://www.npmjs.com/package/botcordtop.js)<br>
 
 ## Installation
 *If you have trouble with the installation, please feel free to visit our [discord](https://discord.gg/8ZBYQAS4Q9) address.*
