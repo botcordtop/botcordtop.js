@@ -40,4 +40,4 @@ If you are still having issue's please join our [DISCORD](https://botcord.top/di
 
 
 
-~ <3 Founders
+- ❤️ System Developers ❤️ -
