@@ -1,7 +1,7 @@
 {
   "name": "botcordtop.js",
-  "version": "1.0.1",
-  "description": "botcord.top API",
+  "version": "1.0.4",
+  "description": "This is the Official Package for BotCord.Top",
   "main": "index.js",
   "scripts": {
     "test": "N/A"
