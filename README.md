@@ -41,7 +41,7 @@ let hasVote = await dbt.hasVoted("Your-bot-id");
 
 #### Full Example?
 ```js
-const dbct = require("api-townlist-xyz");
+const dbct = require("botcordtop.js");
 const dbt = new dtl("TOKEN-HERE", client);
 
 client.on("ready", async () => {
@@ -56,7 +56,7 @@ client.on("ready", async () => {
   }
   
   
-  let search = await dbt.search("api-townlist-xyz")
+  let search = await dbt.search("botcordtop.js")
   console.log(search)
 
   /* SearchResults
