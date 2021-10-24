@@ -9,22 +9,10 @@
 *If you have trouble with the installation, please feel free to visit our [discord](https://botcord.top/dc) address.*
 - `npm i botcordtop.js`
 
-#### 1. Where can I get townlist.xyz API?
-  [JavaScript Package](https://www.npmjs.com/package/botcordtop.js)
-            
+#### What is it's uses?
+  Answer: To get the daily vote count, server count and information about your bot.
 
-#### 2. How do I install it?
- `npm i botcordtop.js or npm install botcordtop.js`
-          
-
-#### 3. Does it have any GitHub Repository?
- Yes
-
-#### 4. What is it's uses?
-  Ans: To get the daily vote count, server count and information about your bot.
-Examples:  avatar, botID, discriminator, shortDescription, prefix, votes, serverCount, ownerID, owner, co-owners, tags, longDescription, certificate etc.
-
-#### 5. How can I get my bot's server count?
+#### How can I get my bot's server count?
   `JavaScript:`
 ```js
 const dbct = require("botcordtop.js");
@@ -35,8 +23,8 @@ client.on("ready", async () => {
 });
 ```
 
-#### 6. How can I get my bot's vote count?
-  `Ans:`
+#### How can I get my bot's vote count?
+  `Answer:`
 ```js
 let hasVote = await dbt.hasVoted("Your-bot-id");
   if(hasVote === true) {
@@ -51,7 +39,7 @@ let hasVote = await dbt.hasVoted("Your-bot-id");
 
 ```
 
-#### 7. Full Example?
+#### Full Example?
 ```js
 const dbct = require("api-townlist-xyz");
 const dbt = new dtl("TOKEN-HERE", client);
