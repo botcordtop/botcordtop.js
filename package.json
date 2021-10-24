@@ -1,0 +1,26 @@
+{
+  "name": "botcordtop.js",
+  "version": "1.0.1",
+  "description": "botcord.top API",
+  "main": "index.js",
+  "scripts": {
+    "test": "N/A"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/botcordtop/botcordtop.js.git"
+  },
+  "keywords": [
+    "api",
+    "botcord",
+    "oooo",
+    "website",
+    "server"
+  ],
+  "author": "Fusions#6607",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/botcordtop/botcordtop.js/issues"
+  },
+  "homepage": "https://github.com/botcordtop/botcordtop.js#readme"
+}
