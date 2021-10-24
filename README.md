@@ -20,7 +20,8 @@ const dbt = new dbct("TOKEN_HERE", client);
 
 client.on("ready", async () => {
   dbt.serverCount();
-  console.log("[BOTCORD.TOP] - Server Count Updated!")```
+  console.log("[BOTCORD.TOP] - Server Count Updated!")
+```
 
 This would be to get the server count! This would be to not have it saying N/A
 
@@ -30,7 +31,8 @@ This would be to get the server count! This would be to not have it saying N/A
     console.log("[BOTCORD.TOP] - Bot voted recently.")
   } else {
     console.log("[BOTCORD.TOP] - Please vote on the Bot.")
-  }```
+  }
+```
 
 ---
 
@@ -38,4 +40,4 @@ If you are still having issue's please join our [DISCORD](https://botcord.top/di
 
 
 
-~ Founders
+~ <3 Founders
